@@ -1,3 +1,5 @@
+#!/bin/env zsh
+
 # ghqのディレクトリをfzfで選択して移動する関数
 function g() {
   local query="$1"

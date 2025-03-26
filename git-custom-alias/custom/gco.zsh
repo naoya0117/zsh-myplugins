@@ -1,3 +1,5 @@
+#!/bin/env zsh
+
 # git checkout
 function gco() {
   local remote_flag=false

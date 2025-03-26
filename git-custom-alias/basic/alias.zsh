@@ -1,11 +1,14 @@
+#!/bin/env zsh
+
 # 基本的なGitコマンドのエイリアス
+# alias g='git'
 alias gaa='git add --all'
 alias gb='git branch'
 alias gba='git branch -a'
 alias gc='git commit -v'
 alias gcm='git commit -m'
 alias gca='git commit -v --amend'
-alias gco='git checkout'
+# alias gco='git checkout'
 alias gd='git diff'
 alias gf='git fetch'
 alias gl='git pull'
