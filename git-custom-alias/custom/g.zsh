@@ -2,7 +2,7 @@
 
 # ghqのディレクトリをfzfで選択して移動する関数
 function g() {
-  local query="$1"
+  local query="$@"
 
   if [ -n "$query" ]; then
     # 引数がある場合はその文字列でfzfを実行
